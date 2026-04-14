@@ -21,7 +21,7 @@ cd Gyandhan-Assignment
 
 For Windows:
 ```cmd
-mvnw.cmd clean install
+.\mvnw.cmd clean install
 ```
 For Mac/Linux:
 ```bash
@@ -33,7 +33,7 @@ For Mac/Linux:
 
 For Windows:
 ```cmd
-mvnw.cmd exec:java
+.\mvnw.cmd exec:java
 ```
 For Mac/Linux:
 ```bash
