@@ -10,7 +10,13 @@ Written in Java using Microsoft Playwright and the org.json library.
 
 ## Setup Steps
 1. Clone or extract the project folder.
+```bash
+git clone https://github.com/RajSunny2011/Gyandhan-Assignment.git
+```
 2. Open a terminal in the project root (where `pom.xml` is located).
+```bash
+cd Gyandhan-Assignment
+```
 3. Run: 
 
 For Windows:
