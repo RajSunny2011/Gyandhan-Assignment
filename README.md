@@ -3,7 +3,6 @@ Written in Java using Microsoft Playwright and the org.json library.
 
 ## Dependencies
 * Java JDK
-* [Apache Maven](https://maven.apache.org/)
 
 ### Java Packages used:
 * Playwright
@@ -12,10 +11,28 @@ Written in Java using Microsoft Playwright and the org.json library.
 ## Setup Steps
 1. Clone or extract the project folder.
 2. Open a terminal in the project root (where `pom.xml` is located).
-3. Run: `mvn clean install`
+3. Run: 
+
+For Windows:
+```cmd
+mvnw.cmd clean install
+```
+For Mac/Linux:
+```bash
+./mvnw clean install
+```
 
 ## How to Run
-1. In the terminal, run: `mvn exec:java`
+1. In the terminal, run:
+
+For Windows:
+```cmd
+mvnw.cmd exec:java
+```
+For Mac/Linux:
+```bash
+./mvnw exec:java
+```
 2. The scraper will automatically extract the courses and terminate.
 
 ## Output Format
